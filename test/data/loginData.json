@@ -1,0 +1,23 @@
+{
+    "loginSuccess": {
+        "email": "email1@gmail.com",
+        "password": "12345678"
+    },
+    "invalidLogin": {
+        "email": "emailinvalido",
+        "password": "12345678"
+    },
+    "signUpSuccess": {
+        "email": "email2@gmail.com",
+        "password": "12345678"
+    },
+    "invalidSignUp": {
+        "email": "emailinvalido",
+        "password": "12345678"
+    },
+    "passwordMismatchSignUp": {
+        "email": "email3@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "87654321"
+    }
+}
