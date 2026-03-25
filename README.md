@@ -53,11 +53,25 @@ BS_IOS_APP_ID = bs://id_do_seu_app_ios
 
 ## 4. Comandos Principais
 
+Rodar Android com emulador local
+```
+npm run test:android
+```
+
+Rodar IOS com emulador local
+```
+npm run test:ios
+```
+
 Rodar Android no BrowserStack
+```
 npm run test:bs:android
+```
 
 Rodar iOS no BrowserStack
+```
 npm run test:bs:ios
+```
 
 Abrir Relatório Allure
 npm run report:generate && npm run report:open
