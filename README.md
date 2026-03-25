@@ -40,21 +40,18 @@ cd desafio-carrefour-mobile
 npm install
 ```
 
-### 3. Configurando os Secrets no GitHub
+### 3. Configurando os Secrets no seu projeto
 
-Para que sua pipeline do GitHub Actions acesse o **BrowserStack** sem expor suas chaves, cadastre os **Secrets**:
-
-1.  Acesse seu repositório no GitHub.
-    
-2.  Vá em **Settings** > **Secrets and variables** > **Actions**.
-    
-3.  Clique em **New repository secret** e adicione:
+1. Crie um arquivo .env com as variáveis e instale a dependência:
+```
+npm install dotenv --save-dev    
 
 Nome do Secret,Valor (Exemplo)
 BS_USERNAME = SEU_USARIO
 BS_ACCESS_KEY = SUA_KEY
 BS_ANDROID_APP_ID = bs://id_do_seu_app_android
 BS_IOS_APP_ID = bs://id_do_seu_app_ios
+```
 
 ## 4. Comandos Principais
 
@@ -69,6 +66,7 @@ npm run report:generate && npm run report:open
 
 ##🏗️ Estrutura do Repositório
 
+```
 ├── .github/workflows/    # Configuração da Pipeline CI/CD
 ├── test/
 │   ├── pageobjects/      # Classes Page Object (Seletores e Ações)
@@ -76,6 +74,7 @@ npm run report:generate && npm run report:open
 │   └── config/           # Arquivos de Configuração do WebdriverIO
 ├── package.json          # Scripts e Dependências
 └── .gitignore            # Arquivos ignorados (node_modules, .env, app/)
+```
 
 ## 🛡️ CI/CD Workflow
 ------------------
