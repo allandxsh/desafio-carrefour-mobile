@@ -56,18 +56,18 @@ BS_ACCESS_KEY = SUA_KEY
 BS_ANDROID_APP_ID = bs://id_do_seu_app_android
 BS_IOS_APP_ID = bs://id_do_seu_app_ios
 
-### 4. Comandos Principais
+## 4. Comandos Principais
 
-# Rodar Android no BrowserStack
+Rodar Android no BrowserStack
 npm run test:bs:android
 
-# Rodar iOS no BrowserStack
+Rodar iOS no BrowserStack
 npm run test:bs:ios
 
-# Abrir Relatório Allure
+Abrir Relatório Allure
 npm run report:generate && npm run report:open
 
-###🏗️ Estrutura do Repositório
+##🏗️ Estrutura do Repositório
 
 ├── .github/workflows/    # Configuração da Pipeline CI/CD
 ├── test/
@@ -77,7 +77,7 @@ npm run report:generate && npm run report:open
 ├── package.json          # Scripts e Dependências
 └── .gitignore            # Arquivos ignorados (node_modules, .env, app/)
 
-### 🛡️ CI/CD Workflow
+## 🛡️ CI/CD Workflow
 ------------------
 
 O projeto conta com uma pipeline automática que dispara testes no BrowserStack a cada push para a branch main. As chaves de acesso são gerenciadas via **GitHub Repository Secrets**.
