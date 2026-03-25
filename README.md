@@ -79,11 +79,6 @@ Rodar Android no BrowserStack
 npm run test:bs:android
 ```
 
-Rodar iOS no BrowserStack
-```
-npm run test:bs:ios
-```
-
 Abrir Relatório Allure
 npm run report:generate && npm run report:open
 
