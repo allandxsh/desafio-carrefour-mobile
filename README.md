@@ -14,13 +14,13 @@ Projeto de automação de testes mobile para o aplicativo **WebdriverIO Native D
 
 ## 📊 Evidências de Execução
 ### 1. Sucesso da Suite de Testes (100% Pass)
-> ![Execução com Sucesso](./docs/prints/allureReport.png)
+> ![Execução com Sucesso](./docs/prints/allure_report.png)
 
 ### 2. BrowserStack Run
-> ![BrowserStack Run]([https://app-automate.browserstack.com/projects/Desafio+Carrefour+Mobile/builds/Vers%C3%A3o+Final/9?testListView=spec&public_token=f3008e5f67b0aa23f355ca8f7e204ef380023e3f356d8f834041351885824cde])
+> ![BrowserStack Run](./docs/prints/test_browserstack.png)
 
 ### 3. Rodando em Emulador Local
->  ![Execução com Sucesso](./docs/prints/testAndroidEmulator.png)
+>  ![Execução com Sucesso](./docs/prints/test_android_emulator.png)
 
 ## 🛠️ Tecnologias e Ferramentas
 
