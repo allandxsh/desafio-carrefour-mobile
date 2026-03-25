@@ -20,6 +20,7 @@ Projeto de automação de testes mobile para o aplicativo **WebdriverIO Native D
 * **Relatórios:** Allure Framework
 * **CI/CD:** GitHub Actions
 * **Linguagem:** JavaScript (Node.js)
+* **Emulador:** Android Studio
 
 ## ⚙️ Configuração e Execução
 
