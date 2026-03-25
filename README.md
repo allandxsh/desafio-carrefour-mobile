@@ -43,9 +43,7 @@ npm install
 ### 3. Configurando os Secrets no seu projeto
 
 1. Crie um arquivo .env com as variáveis e instale a dependência:
-```
-npm install dotenv --save-dev    
-
+```   
 Nome do Secret,Valor (Exemplo)
 BS_USERNAME = SEU_USARIO
 BS_ACCESS_KEY = SUA_KEY
