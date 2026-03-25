@@ -2,7 +2,7 @@
 
 # 📱 Carrefour Mobile Automation - Desafio Técnico
 
-Projeto de automação de testes mobile para o aplicativo **WebdriverIO Native Demo App**, desenvolvido como parte do desafio técnico para a posição de **QA Principal** no Carrefour. O projeto utiliza **WebdriverIO** com **Appium**, estruturado no padrão **Page Object Model (POM)** e integrado à nuvem do **BrowserStack**.
+Projeto de automação de testes mobile para o aplicativo **WebdriverIO Native Demo App**, desenvolvido como parte do desafio técnico. O projeto utiliza **WebdriverIO** com **Appium**, estruturado no padrão **Page Object Model (POM)** e integrado à nuvem do **BrowserStack**.
 
 ## 🚀 Diferenciais do Projeto
 
