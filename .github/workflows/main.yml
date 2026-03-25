@@ -1,0 +1,37 @@
+name: Mobile Automation - Carrefour
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-android-ios:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Android Tests on BrowserStack
+        run: npm run test:bs:android
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BS_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_ACCESS_KEY }}
+          BROWSERSTACK_APP_ID: ${{ secrets.BS_ANDROID_APP_ID }}
+
+      - name: Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results/
